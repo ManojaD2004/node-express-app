@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Node JS App",
   "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=development nodemon app"
